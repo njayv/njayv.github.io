@@ -33,3 +33,14 @@ h1 {
 p {
     font-size: 1.2rem;
 }
+
+.text-jumble {
+    display: inline-block;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.text-jumble span {
+    display: inline-block;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
