@@ -26,21 +26,9 @@ h1 {
     text-shadow: 
         0 0 80px rgba(147, 0, 255, 1),
         0 0 140px rgba(147, 0, 255, 0.8),
-        0 0 160px rgba(147, 0, 255, 0.6),
-        0 0 240px rgba(147, 0, 255, 0.4);
+        0 0 160px rgba(147, 0, 255, 0.6)
 }
 
 p {
     font-size: 1.2rem;
-}
-
-.text-jumble {
-    display: inline-block;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.text-jumble span {
-    display: inline-block;
-    transition: transform 0.2s ease, opacity 0.2s ease;
 }
