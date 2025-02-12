@@ -1,33 +1,37 @@
-body, html {
+@font-face {
+    font-family: "Aquire";
+    font-style: light, normal, bold;
+    src:
+        local("Aquire"),
+        url("assets/fonts/Aquire-Bold.ttf") format("truetype"),
+        url("assets/fonts/Aquire-Normal.ttf") format("truetype"),
+        url("assets/fonts/Aquire-Light.ttf") format("truetype");
+}
+
+html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: "Fivo Sans Normal", Arial, sans-serif;
+    font-family: "Aquire", sans-serif;
 }
 
 body {
-    background: #000000;
-    background: linear-gradient(180deg, #000000 0%, #6000a6 100%);
+    background: radial-gradient(circle, #000000 10%, #222222, #000000 90%);
 }
 
 h1 {
-    color: white;
-    font-family: "Fivo Sans Bold", Arial, sans-serif;
     font-size: 48px;
+    color: #ffffff;
+    font-style: light;
 }
 
-p {
-    color: white;
-    font-size: 18px;
-}
-
-.horizontal-container {
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.horizontal-box {
-    flex: 1;
+.content {
     padding: 20px;
-    margin: 10px;
-    text-align: center;
 }
