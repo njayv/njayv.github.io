@@ -8,15 +8,15 @@
         url("assets/fonts/Aquire-Light.ttf") format("truetype");
 }
 
-html {
+* {
     margin: 0;
     padding: 0;
-    height: 100%;
+    box-sizing: border-box;
     font-family: "Aquire", sans-serif;
 }
 
 body {
-    background: radial-gradient(circle, #000000 10%, #222222, #000000 90%);
+    background: linear-gradient(#000000, #222222);
 }
 
 h1 {
@@ -42,5 +42,5 @@ p {
 }
 
 .content {
-    padding: 20px;
+    padding: 0px;
 }
