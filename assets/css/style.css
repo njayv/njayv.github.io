@@ -3,9 +3,9 @@
     font-style: light, normal, bold;
     src:
         local("Aquire"),
-        url("assets/fonts/Aquire-Bold.ttf") format("truetype"),
-        url("assets/fonts/Aquire-Normal.ttf") format("truetype"),
-        url("assets/fonts/Aquire-Light.ttf") format("truetype");
+        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/Aquire-Normal.woff2") format("woff2"),
+        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/Aquire-Normal.woff") format("woff"),
+        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/Aquire-Normal.ttf") format("truetype");
 }
 
 * {
@@ -16,22 +16,31 @@
 }
 
 body {
-    background: linear-gradient(#000000, #222222);
+    background-image: url("/assets/images/MiiMakerBG.png");
+    background-position: center;
 }
 
 h1 {
     font-size: 64px;
-    color: #ffffff;
+    color: #9ea3a0;
 }
 
 h2 {
     font-size: 32px;
-    color: #ffffff;
+    color: #9ea3a0;
 }
 
 p {
     font-size: 16px;
-    color: #ffffff;
+    color: #9ea3a0;
+}
+
+.blurbar {
+    display: flex;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 40px;
+    border-radius: 80px;
 }
 
 .container {
