@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "Continuum";
+    font-style: normal;
+    src:
+        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/WiiFont.ttf") format("truetype")
+}
+
 * {
-    color: #000000;
+    background-color: #000000;
 }
 
 p {
@@ -16,11 +23,11 @@ p {
 .neonText {
     color: #ffffff;
     text-shadow:
-        0 0 5px #000000,
-        0 0 10px #000000,
-        0 0 20px #9300ff,
-        0 0 30px #9300ff,
-        0 0 40px #9300ff,
-        0 0 55px #9300ff,
-        0 0 75px #9300ff;
+        0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #dddddd,
+        0 0 30px #bbbbbb,
+        0 0 40px #999999,
+        0 0 55px #777777,
+        0 0 75px #555555;
 }
