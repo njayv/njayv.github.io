@@ -1,3 +1,7 @@
+* {
+    color: #000000;
+}
+
 p {
     font-size: 50px;
 }
@@ -7,7 +11,6 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #000000;
 }
 
 .neonText {
