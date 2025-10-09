@@ -5,24 +5,8 @@
     font-family: "Aquire", sans-serif;
 }
 
-body {
-    background-image: url("/assets/images/MiiMakerBG.png");
-    background-position: center;
-}
-
-h1 {
-    font-size: 64px;
-    color: #9ea3a0;
-}
-
-h2 {
-    font-size: 32px;
-    color: #9ea3a0;
-}
-
 p {
-    font-size: 16px;
-    color: #9ea3a0;
+    font-size: 50px;
 }
 
 .container {
@@ -37,9 +21,9 @@ p {
     text-shadow:
         0 0 5px #fff,
         0 0 10px #fff,
-        0 0 20px #ff00de,
-        0 0 30px #ff00de,
-        0 0 40px #ff00de,
-        0 0 55px #ff00de,
-        0 0 75px #ff00de;
+        0 0 20px #9300ff,
+        0 0 30px #9300ff,
+        0 0 40px #9300ff,
+        0 0 55px #9300ff,
+        0 0 75px #9300ff;
 }
