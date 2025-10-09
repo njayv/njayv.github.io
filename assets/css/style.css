@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Aquire";
-    font-style: light, normal, bold;
-    src:
-        local("Aquire"),
-        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/Aquire-Normal.woff2") format("woff2"),
-        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/Aquire-Normal.woff") format("woff"),
-        url("https://raw.githubusercontent.com/njayv/njayv.github.io/main/assets/fonts/Aquire-Normal.ttf") format("truetype");
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -35,14 +25,6 @@ p {
     color: #9ea3a0;
 }
 
-.blurbar {
-    display: flex;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    padding: 40px;
-    border-radius: 80px;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -50,9 +32,12 @@ p {
     height: 100vh;
 }
 
-.content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px;
+.neonText {
+    color: #fff text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #ff00de,
+        0 0 30px #ff00de,
+        0 0 40px #ff00de,
+        0 0 55px #ff00de,
+        0 0 75px #ff00de;
 }
