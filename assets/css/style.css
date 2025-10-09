@@ -7,13 +7,14 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #000000;
 }
 
 .neonText {
-    color: #fff;
+    color: #ffffff;
     text-shadow:
-        0 0 5px #fff,
-        0 0 10px #fff,
+        0 0 5px #000000,
+        0 0 10px #000000,
         0 0 20px #9300ff,
         0 0 30px #9300ff,
         0 0 40px #9300ff,
