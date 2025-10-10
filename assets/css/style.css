@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Continuum;
+    src: url('https://raw.githubusercontent.com/njayv/njayv.github.io/assets/fonts/Continuum.tff');
+}
+
 * {
     background-color: #000000;
 }
