@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Wii U";
+    src: url("/assets/fonts/FOT-Rodin Pro DB.otf");
+}
+
 * {
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: "Wii U";
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -28,6 +33,11 @@ p {
     padding-right: 25px;
 }
 
+img {
+    padding: 10px;
+    border-radius: 40px;
+}
+
 .whiteText {
     color: #ffffff;
 }
@@ -38,25 +48,13 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    background: url("/assets/images/MiiMakerBG.png");
+    background: url("/assets/images/LargePurpleGrid.png");
     background-repeat: repeat;
     background-position: 0 0;
-    background-size: auto 50%;
-    animation: animatedBackground 500s linear infinite;
-}
-
-@keyframes animatedBackground {
-    from {
-        background-position: 0 0;
-    }
-
-    to {
-        background-position: -10000px 0;
-    }
 }
 
 .bodyBox {
-    margin: 20px;
+    margin: 10px;
 }
 
 .navBar {
@@ -89,6 +87,7 @@ p {
     border: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 32px rgba(0, 0, 0, 0.4);
     border-radius: 25px;
+    display: inline-block;
 }
 
 .outlineText {
@@ -126,10 +125,10 @@ p {
 .navLink:visited {
     color: #ffffff;
     text-shadow:
-        -2px -2px 0 black,
-        2px -2px 0 black,
-        -2px 2px 0 black,
-        2px 2px 0 black;
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 
     padding-left: 80px;
     padding-right: 80px;
@@ -142,10 +141,17 @@ p {
 .navLink:active {
     color: #000000;
     text-shadow:
-        -2px -2px 0 #ffffff,
-        2px -2px 0 #ffffff,
-        -2px 2px 0 #ffffff,
-        2px 2px 0 #ffffff;
+        -1px -1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff;
 
     text-decoration: underline;
+}
+
+.imageGridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    gap: 10px;
 }
